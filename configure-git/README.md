@@ -14,8 +14,8 @@ Ce kata n'a pas de script `setup.sh`. Lisez et suivez.
 Git veut savoir qui il doit écrire en tant que commettant des changements, etc.
 Pour ce faire, configurez le nom d'utilisateur et l'adresse e-mail de l'utilisateur vers Git avec les commandes suivantes:
 
-1. `git config --global user.name" John Doe "`
-2. `git config --global user.email" johndoe @ example.com`
+1. `git config --global user.name "John Doe"`
+2. `git config --global user.email "johndoe@example.com"`
 
 ### Configuration de l'éditeur
 
@@ -30,9 +30,9 @@ Pour les peeps Windows:
 
 Ou bien d'autres outils que vous connaissez déjà:
 
-- `git config --global core.editor" 'C:/Program Files/Notepad ++/notepad ++. exe' -multiInst -notabbar -nosession -noPlugin "`
-- `git config --global core.editor" atom --wait "`
-- `git config --global core.editor" code --wait "`
+- `git config --global core.editor "'C:/Program Files/Notepad ++/notepad ++. exe' -multiInst -notabbar -nosession -noPlugin"`
+- `git config --global core.editor "atom --wait"`
+- `git config --global core.editor "code --wait"`
 
 ### Alias
 
@@ -51,7 +51,7 @@ Plus d'informations sur les alias peuvent être trouvées dans le kata **alias**
 
   `ssh-keygen -t rsa -b 4096 -C "johndoe@example.com"`
 
-  Cela génère des clés publiques/privées nommées `id_rsa.pub`/` id_rsa`, respectivement)
+  Cela génère des clés publiques/privées nommées `id_rsa.pub/id_rsa`, respectivement)
 - La clé publique `id_rsa.pub` doit être téléchargée sur votre serveur de dépôt:
 - Pour GitHub, c'est dans _Settings_ -> _SSH et GPG keys_
 - Pour le serveur BitBucket, c'est dans _Gérer le compte_ -> _SSH Keys_

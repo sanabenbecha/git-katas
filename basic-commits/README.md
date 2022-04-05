@@ -40,8 +40,8 @@ Vous pouvez regarder au bas de ce fichier, si vous n'avez pas encore effectué l
 
 
 ## Configuration initiale de Git
-1. `git config --global user.name" John Doe "`
-1. `git config --global user.email" johndoe @ example.com`
+1. `git config --global user.name "John Doe"`
+1. `git config --global user.email "johndoe@example.com"`
 
 Pour le vim effrayé:
 - `git config --global core.editor nano`
@@ -50,6 +50,6 @@ Pour les fenêtres peeps:
 - `git config --global core.editor notepad`
 
 Autres options de l'éditeur:
-- `git config --global core.editor" atom --wait "`
-- `git config --global core.editor" code --wait "`
-- `git config --global core.editor" 'C:/Program Files/Notepad ++/notepad ++. exe' -multiInst "`
+- `git config --global core.editor "atom --wait"`
+- `git config --global core.editor "code --wait"`
+- `git config --global core.editor "'C:/Program Files/Notepad ++/notepad ++. exe' -multiInst"`
