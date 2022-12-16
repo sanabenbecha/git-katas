@@ -19,7 +19,7 @@ Après avoir exécuté le script d'installation, il vous restera trois référen
 
 Accédez au référentiel `product`.
 
-1. Ajoutez un composant en tant que sous-module de produit en exécutant `git submodule add ../remote include`.
+1. Ajoutez un composant en tant que sous-module de produit en exécutant `git submodule add ../remote include`. (Ajoutez l\'option `-c protocol.file.allow=always` , en cas d\'erreur de transfer de fichier)
 2. À quoi ressemble votre répertoire de travail?
 3. Est-ce que `git status` ressemble à ce que vous attendez?
 4. Et si vous cd vers "include"?
