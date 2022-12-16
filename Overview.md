@@ -1,5 +1,3 @@
-
-
 # Vue d'ensemble des exercices Git Kata
 
 ## Installer
